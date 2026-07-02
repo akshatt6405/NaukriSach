@@ -1,0 +1,50 @@
+:root {
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --font-deva: 'Hind', 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extra: 800;
+
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+  --text-4xl: 3rem;
+  --text-5xl: 3.75rem;
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  --tracking-tight: -0.02em;
+  --tracking-snug: -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.02em;
+  --tracking-caps: 0.06em;
+
+  --type-display-font: var(--font-display);
+  --type-display-weight: var(--fw-bold);
+  --type-display-spacing: var(--tracking-tight);
+
+  --type-heading-font: var(--font-display);
+  --type-heading-weight: var(--fw-semibold);
+  --type-heading-spacing: var(--tracking-snug);
+
+  --type-body-font: var(--font-sans);
+  --type-body-weight: var(--fw-regular);
+
+  --type-label-font: var(--font-sans);
+  --type-label-weight: var(--fw-semibold);
+
+  --type-mono-font: var(--font-mono);
+}

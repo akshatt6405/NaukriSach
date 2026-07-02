@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NaukriSach logomark">
+  <path d="M24 3.5 6 10.2v11.4C6 33.1 13.4 42.7 24 45.5c10.6-2.8 18-12.4 18-23.9V10.2L24 3.5Z" fill="#3348E0"></path>
+  <path d="M24 3.5 6 10.2v11.4C6 33.1 13.4 42.7 24 45.5c10.6-2.8 18-12.4 18-23.9V10.2L24 3.5Z" fill="url(#ns_grad)" fill-opacity="0.28"></path>
+  <path d="m16.5 24.3 5 5.1 10-10.4" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"></path>
+  <defs>
+    <linearGradient id="ns_grad" x1="24" y1="3.5" x2="24" y2="45.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"></stop>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+    </linearGradient>
+  </defs>
+</svg>

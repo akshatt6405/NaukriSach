@@ -1,0 +1,107 @@
+:root {
+  /* Trust Blue */
+  --blue-50: #EFF3FF;
+  --blue-100: #DEE6FF;
+  --blue-200: #C2D0FF;
+  --blue-300: #9BB0FF;
+  --blue-400: #6E86FB;
+  --blue-500: #4A63F0;
+  --blue-600: #3348E0;
+  --blue-700: #2836B8;
+  --blue-800: #232E90;
+  --blue-900: #1E2A66;
+
+  /* Safe / Real green */
+  --green-50: #E6F7EF;
+  --green-100: #C4EED9;
+  --green-200: #97E0BE;
+  --green-300: #6FD9A6;
+  --green-500: #16B26A;
+  --green-600: #0E9A5A;
+  --green-700: #0B7C49;
+
+  /* Scam / Fake red */
+  --red-50: #FDECEC;
+  --red-100: #FBD5D5;
+  --red-200: #F6B2B2;
+  --red-300: #F08D8D;
+  --red-500: #E5484D;
+  --red-600: #D22F35;
+  --red-700: #B01F26;
+
+  /* Caution amber */
+  --amber-50: #FEF6E7;
+  --amber-100: #FCE8BF;
+  --amber-200: #F9D68A;
+  --amber-300: #F7C65A;
+  --amber-500: #F0A413;
+  --amber-600: #DB8B00;
+  --amber-700: #A66A00;
+
+  /* Neutral / cool slate */
+  --neutral-0: #FFFFFF;
+  --neutral-25: #FAFBFD;
+  --neutral-50: #F5F7FA;
+  --neutral-100: #EDF0F5;
+  --neutral-200: #E1E6EF;
+  --neutral-300: #CDD4E0;
+  --neutral-400: #A9B2C4;
+  --neutral-500: #7C8698;
+  --neutral-600: #5A6478;
+  --neutral-700: #414A5C;
+  --neutral-800: #2A3242;
+  --neutral-900: #171D2B;
+  --neutral-950: #0D111C;
+
+  /* Surfaces */
+  --surface-page: var(--neutral-50);
+  --surface-card: var(--neutral-0);
+  --surface-sunken: var(--neutral-100);
+  --surface-hover: var(--neutral-50);
+  --surface-inverse: var(--neutral-900);
+  --surface-brand: var(--blue-600);
+
+  /* Text */
+  --text-strong: var(--neutral-900);
+  --text-body: var(--neutral-700);
+  --text-muted: var(--neutral-500);
+  --text-subtle: var(--neutral-400);
+  --text-inverse: var(--neutral-0);
+  --text-link: var(--blue-600);
+  --text-brand: var(--blue-700);
+
+  /* Borders */
+  --border-subtle: var(--neutral-200);
+  --border-default: var(--neutral-300);
+  --border-strong: var(--neutral-400);
+
+  /* Brand */
+  --brand: var(--blue-600);
+  --brand-hover: var(--blue-700);
+  --brand-active: var(--blue-800);
+  --brand-subtle: var(--blue-50);
+  --brand-ring: color-mix(in srgb, var(--blue-600) 40%, transparent);
+
+  /* Semantic: safe */
+  --safe: var(--green-600);
+  --safe-hover: var(--green-700);
+  --safe-subtle: var(--green-50);
+  --safe-border: var(--green-200);
+  --safe-text: var(--green-700);
+
+  /* Semantic: danger */
+  --danger: var(--red-600);
+  --danger-hover: var(--red-700);
+  --danger-subtle: var(--red-50);
+  --danger-border: var(--red-200);
+  --danger-text: var(--red-700);
+
+  /* Semantic: caution */
+  --caution: var(--amber-600);
+  --caution-hover: var(--amber-700);
+  --caution-subtle: var(--amber-50);
+  --caution-border: var(--amber-200);
+  --caution-text: var(--amber-700);
+
+  --focus-ring: var(--blue-500);
+}
